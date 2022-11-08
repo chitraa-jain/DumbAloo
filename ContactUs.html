@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="ContactUs.css">
+</head>
+<body>
+    <h1>Contact Us
+        <nav>
+            <a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="instagram"></a>  
+            <a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="facebook"></a> 
+            <a href="https://www.Twitter.com" target="_blank"><img src="twitter.png" alt="twitter"></a> 
+            <a href="https://www.google.com" target="_blank"><img src="gmail.png" alt="gmail"></a>
+        </nav>
+    </h1>
+   
+    <button type="button" class="cancelbtn"><a href="dumbaloo.html">Go Home</a></button>
+    <div><img src="logoo.png" alt="">
+    </div>
+    <form>
+        <p style="color:red;font-size: smaller;">Requires Field are followed by *</p>
+        <p class="fn">First Name:  * <input type = "text" name = "FirstName" id="firstname" placeholder="Shivam" required></p>
+        <p>Last Name:  * <input type = "text" id="lastname" name = "LastName"placeholder="Sharma" required></p>
+        <p>Email:  * <input type="email" name="email" id="email" required placeholder="abcdef@gmail.com"></p>
+        <p>Phone Number: *  <input type="Number" id="phonenumber" name="PhoneNumber" required placeholder="+91 5468362876"></p>
+        <fieldset>
+            <legend style="margin:5px ;">Query Regarding: * </legend>
+                <p style="color: black;">News <input type="radio" name="News" id ="News"  required> &nbsp;&nbsp;&nbsp; 
+                Website <input type="radio" name="Website" id ="Website"  required>&nbsp; &nbsp; &nbsp;
+                Production <input type="radio" name="Production" id ="Production"  required>&nbsp; &nbsp; &nbsp;
+                Entertainment  <input type="radio" name="Entertainment" id ="Entertainment"  required>&nbsp; &nbsp; &nbsp;
+                Others <input type="radio" name="Others" id ="others"  required></p>
+            </fieldset>
+        <p>Message: <textarea name="message" id="message" cols="100" rows="7" placeholder="Enter your message"></textarea></p>
+        <input type="submit" value="Submit Now">
+    </form>
+        
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+#DivForHoverItem {
+    /*just so we can see it*/
+    height: 50px;
+    width: 300px;
+    background-color: red;
+}
+
+#HiddenText {
+    display: none;
+}
+
+#DivForHoverItem:hover #HiddenText {
+    display:block;
+}

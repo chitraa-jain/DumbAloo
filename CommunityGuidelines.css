@@ -1,0 +1,81 @@
+h1{
+    background-color: #333;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 5px;
+    color: beige;
+    text-align: center;
+}
+h2{
+    
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 5px;
+    color: #333;
+    text-align: center;
+}
+
+
+p{
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding: 40px;
+    padding-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+button{
+    float: right;
+    margin-top: -40px;
+    padding: 10px;
+    margin-right: 120px;
+    background-color: #FFC000;
+    border-radius: 5px;
+    border: 0px;
+
+
+}
+button>a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    opacity: 50%;
+}
+button>a:hover{
+    color: rgb(25, 124, 91);
+    
+}
+@media screen and (max-width:600px){ /*Changes text color when screen size becomes 600px*/
+    p{
+        margin: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    h2{
+    
+        padding: 10px;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 5px;
+        color: #333;
+        text-align: center;
+    }
+    button{
+        float: right;
+        margin-top: -30px;
+        padding: 10px;
+        margin-right: 10px;
+        background-color: #FFC000;
+        border-radius: 5px;
+        border: 0px;
+    
+    
+    }
+}
